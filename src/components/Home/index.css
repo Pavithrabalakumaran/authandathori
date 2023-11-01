@@ -1,0 +1,82 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+  }
+}
+
+.home-description {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.shop-now-button {
+  background-color: #0967d2;
+  font-size: 12px;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  height: 50px;
+  width: 150px;
+
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.clothes-noticed-image-desktop {
+  height: 300px;
+  width: 400px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .clothes-noticed-image-desktop {
+    display: inline;
+  }
+}
+
+.clothes-noticed-image-mobile {
+  height: 400px;
+  width: 500px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .clothes-noticed-image-mobile {
+    display: inline;
+    align-items: flex-end;
+    margin: 30px;
+  }
+}

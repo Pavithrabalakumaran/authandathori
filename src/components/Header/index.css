@@ -1,0 +1,99 @@
+/* Write your CSS code here */
+/* Write your CSS code here */
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header-rightside-content {
+  display: flex;
+}
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.website-logo {
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    height: 80px;
+    width: 160px;
+  }
+}
+
+.header-list {
+  list-style-type: none;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: flex-end;
+}
+
+.nav-link {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 15px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 25px;
+  }
+}
+
+.logout-button {
+  background-color: #0967d2;
+  font-size: 12px;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  height: 50px;
+  width: 100px;
+  display: none;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-button {
+    display: inline;
+  }
+}
+
+.logout-button-small {
+  height: 20px;
+  width: 20px;
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .logout-button-small {
+    display: inline;
+  }
+}
+
+.logout-symbol {
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
